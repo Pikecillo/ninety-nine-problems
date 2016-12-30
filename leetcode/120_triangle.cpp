@@ -6,12 +6,12 @@ public:
         if(triangle.empty())
             return 0;
             
-        minimum.push_back(triangle[0][0]);
+        minimum.push_back(triangle.front().front());
         
         for(int i = 1; i < triangle.size(); i++) {
-            int prev1 = minimum[0];
+            int prev1 = minimum.front();
             
-            minimum[0] += triangle[i][0];
+            minimum.front() += triangle[i].front();
             
             for(int j = 1; j < triangle[i].size() - 1; j++) {
                 int prev2 = minimum[j];

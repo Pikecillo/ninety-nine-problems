@@ -16,11 +16,11 @@ public:
         if(in_begin == in_end)
             return nullptr;
             
-        int val = *(post_end - 1);
+        const int val = *(post_end - 1);
         TreeNode *root = new TreeNode(val);
         
-        Iterator in_split = find(in_begin, in_end, val);
-        Iterator post_split = post_begin + distance(in_begin, in_split);
+        const Iterator in_split = find(in_begin, in_end, val);
+        const Iterator post_split = post_begin + distance(in_begin, in_split);
         
         root->left = buildTree(in_begin, in_split,
 			       post_begin, post_split);

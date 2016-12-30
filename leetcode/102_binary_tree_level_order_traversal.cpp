@@ -10,39 +10,27 @@
 class Solution {
 public:
     vector<vector<int>> levelOrder(TreeNode* root) {
-        if(root == nullptr)
-            return vector<vector<int>>();
-        
         queue<TreeNode *> nodes;
-        queue<int> depths;
         vector<vector<int>> levels;
         
-        nodes.push(root);
-        depths.push(0);
+	if(root)
+	    nodes.push(root);
         
         while(!nodes.empty()) {
-            TreeNode *node = nodes.front();
-            int depth = depths.front();
-            
-            nodes.pop();
-            depths.pop();
-            
-            if(depth == levels.size())
-                levels.push_back(vector<int>());
-            
-            levels[depth].push_back(node->val);
-            
-            TreeNode *left = node->left;
-            TreeNode *right = node->right;
-            
-            if(left) {
-                nodes.push(left);
-                depths.push(depth + 1);
-            }
-            
-            if(right) {
-                nodes.push(right);
-                depths.push(depth + 1);
+	    levels.push_back(vector<int>());
+
+	    const int level_size = nodes.size();
+
+	    for(int i = 0; i < level_size; i++) {
+		TreeNode *node = nodes.front();
+		nodes.pop();
+
+		levels.back().push_back(node->val);
+
+		if(node->left)
+		    nodes.push(node->left);
+		if(node->right)
+		    nodes.push(node->right);
             }
         }
         

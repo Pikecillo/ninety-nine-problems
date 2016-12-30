@@ -18,8 +18,7 @@
 class Solution {
 public:
     ListNode *findMiddle(ListNode* begin, ListNode* end) {
-        int i = 0;
-        
+        int i = 0;        
 	ListNode *middle = begin;
 
         while(begin != end) {
