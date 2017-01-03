@@ -23,4 +23,7 @@
 123 - Ad hoc
 124 - Post-order Traversal
 125 - Ad hoc
-
+126 -
+127 -
+128 -
+129 - Pre-order Traversal
