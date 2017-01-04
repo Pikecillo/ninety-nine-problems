@@ -1,10 +1,10 @@
 101 - Pre-order Traversal
-102 - Breadth First Traversal
-103 - Breadth First Traversal
+102 - Breadth-first Traversal
+103 - Breadth-first Traversal
 104 - Post-order Traversal
 105 - Divide-and-conquer
 106 - Divide-and-conquer
-107 - Breadth First Traversal
+107 - Breadth-first Traversal
 108 - Divide-and-conquer
 109 - Divide-and-conquer
 110 - Pre-order and Post-order Traversal
@@ -13,8 +13,8 @@
 113 - Pre-order Traversal
 114 - Post-order Traversal
 115 - Dynamic Programming
-116 - Breadth First Traversal
-117 - Breadth First Traversal
+116 - Breadth-first Traversal
+117 - Breadth-first Traversal
 118 - Ad-hoc
 119 - Ad-hoc
 120 - Dynamic Programming
@@ -24,6 +24,27 @@
 124 - Post-order Traversal
 125 - Ad hoc
 126 -
-127 -
+127 - Breadth-first Search
 128 -
 129 - Pre-order Traversal
+130 -
+131 -
+132 -
+133 -
+134 -
+135 -
+136 - Bitwise Operations
+137 - Bitwise Operations
+138 -
+139 -
+140 -
+141 - Ad-hoc
+142 -
+143 -
+144 -
+145 -
+146 -
+147 -
+148 -
+149 -
+150 -
