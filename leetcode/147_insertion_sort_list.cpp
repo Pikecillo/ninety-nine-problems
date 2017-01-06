@@ -23,7 +23,8 @@ public:
                 head = hi_next;
             }
             else {
-                while(lo->next != nullptr && lo->next->val < hi->next->val && lo != hi) {
+                while(lo->next != nullptr && lo->next->val < hi->next->val
+		      && lo != hi) {
                     lo = lo->next;
                 }
             

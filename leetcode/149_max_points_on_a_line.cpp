@@ -16,14 +16,15 @@ public:
         int max = 2;
         
         if(all_of(points.begin(), points.end(),
-                  [&points](const Point &s){ return s.x == points.cbegin()->x &&
-                                                    s.y == points.cbegin()->y; })) {
+                  [&points](const Point &s){
+		      return s.x == points.cbegin()->x
+			  && s.y == points.cbegin()->y; })) {
             return points.size();
         }
         
         for(int i = 0; i < points.size(); i++) {
             for(int j = i + 1; j < points.size(); j++) {
-                
+		
                 int curr = 2;
                 int dxij = points[j].x - points[i].x;
                 int dyij = points[j].y - points[i].y;
@@ -34,7 +35,7 @@ public:
                 for(int k = 0; k < points.size(); k++) {
                     if(k == i || k == j)
                         continue;
-                        
+		    
                     int dxik = points[k].x - points[i].x;
                     int dyik = points[k].y - points[i].y;
                     

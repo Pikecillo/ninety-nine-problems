@@ -41,10 +41,10 @@
 141 - Ad-hoc
 142 -
 143 -
-144 -
-145 -
+144 - Depth-first Traversal
+145 - Modified Depth-first Traversal
 146 -
-147 -
-148 -
-149 -
+147 - Insertion Sort
+148 - Merge Sort
+149 - Ad-hoc
 150 -
