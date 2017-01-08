@@ -1,4 +1,4 @@
-100 - Pro-order Traversal
+100 - Pre-order Traversal
 101 - Pre-order Traversal
 102 - Breadth-first Traversal
 103 - Breadth-first Traversal
@@ -24,7 +24,7 @@
 123 - Ad hoc
 124 - Post-order Traversal
 125 - Ad hoc
-126 -
+126 - Breadth-first Search
 127 - Breadth-first Search
 128 -
 129 - Pre-order Traversal
@@ -33,7 +33,7 @@
 132 -
 133 -
 134 -
-135 -
+135 - Ad-hoc
 136 - Bitwise Operations
 137 - Bitwise Operations
 138 -
