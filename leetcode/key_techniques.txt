@@ -26,9 +26,9 @@
 125 - Ad hoc
 126 - Breadth-first Search
 127 - Breadth-first Search
-128 -
+128 - Hash Table
 129 - Pre-order Traversal
-130 -
+130 - Breadth-first Traversal
 131 -
 132 -
 133 -
