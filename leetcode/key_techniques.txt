@@ -31,7 +31,7 @@
 130 - Breadth-first Traversal
 131 -
 132 -
-133 -
+133 - Breadth-first Traversal
 134 -
 135 - Ad-hoc
 136 - Bitwise Operations
@@ -41,7 +41,7 @@
 140 -
 141 - Ad-hoc
 142 -
-143 -
+143 - Array
 144 - Depth-first Traversal
 145 - Modified Depth-first Traversal
 146 -
