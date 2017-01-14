@@ -50,6 +50,8 @@
 149 - Ad-hoc
 150 -
 
+190 - Bitwise Operations
+
 206 - Ad-hoc
 
 344 - Ad-hoc: swap elements
