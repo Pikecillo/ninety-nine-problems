@@ -1,3 +1,6 @@
+001 - Brute force is enough for solution. Solution can be improved with a
+      hash map.
+
 100 - Pre-order Traversal
 101 - Pre-order Traversal
 102 - Breadth-first Traversal
