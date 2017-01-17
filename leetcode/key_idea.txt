@@ -1,5 +1,6 @@
-001 - Brute force is enough for solution. Solution can be improved with a
+001 - Brute force is enough for solution. Solution could be improved with a
       hash map.
+002 - No trick. Addition algorithm over single linked list.
 
 100 - Pre-order Traversal
 101 - Pre-order Traversal
