@@ -1,6 +1,7 @@
 001 - Brute force is enough for solution. Solution could be improved with a
       hash map.
-002 - No trick. Addition algorithm over single linked list.
+002 - Just implement addition algorithm over single linked lists.
+003 - Keep track of seen characters in a hash table or array.
 
 100 - Pre-order Traversal
 101 - Pre-order Traversal
