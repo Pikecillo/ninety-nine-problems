@@ -3,6 +3,8 @@
 002 - Just implement addition algorithm over single linked lists.
 003 - Keep track of seen characters in a hash table or array.
 
+020 - Use a stack to pair parentheses.
+
 100 - Pre-order Traversal
 101 - Pre-order Traversal
 102 - Breadth-first Traversal
