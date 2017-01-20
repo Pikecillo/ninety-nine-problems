@@ -61,5 +61,7 @@
 
 206 - Ad-hoc
 
+226 - Ad hoc
+
 344 - Ad-hoc: swap elements
 345 - Ad-hoc: swap elements
