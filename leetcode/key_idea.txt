@@ -5,6 +5,8 @@
 
 020 - Use a stack to pair parentheses.
 
+058 - Go back to front over string.
+
 100 - Pre-order Traversal
 101 - Pre-order Traversal
 102 - Breadth-first Traversal
@@ -39,7 +41,7 @@
 131 -
 132 -
 133 - Breadth-first Traversal
-134 -
+134 - Dynamic Programming. O(n)
 135 - Ad-hoc
 136 - Bitwise Operations
 137 - Bitwise Operations
