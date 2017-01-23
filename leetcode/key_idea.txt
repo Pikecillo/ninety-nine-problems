@@ -38,7 +38,8 @@
 128 - Hash Table
 129 - Pre-order Traversal
 130 - Breadth-first Traversal
-131 -
+131 - Precompute palindromes, then breadth/depth-first search until last
+      character is reached.
 132 -
 133 - Breadth-first Traversal
 134 - Dynamic Programming. O(n)
