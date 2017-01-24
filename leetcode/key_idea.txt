@@ -60,6 +60,8 @@
 149 - Ad-hoc
 150 -
 
+189 - Reverse first n - k elements, reverse the rest k elements, and
+      then reverse the whole array (from Programming Pearls)
 190 - Bitwise Operations
 
 206 - Ad-hoc
