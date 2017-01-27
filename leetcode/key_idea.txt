@@ -71,4 +71,4 @@
 344 - Ad-hoc: swap elements
 345 - Ad-hoc: swap elements
 
-389 - Count characters, return character appearing odd number of times
+389 - XOR characters in both strings, the result is the additional character
