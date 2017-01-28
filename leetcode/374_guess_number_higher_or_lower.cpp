@@ -6,10 +6,10 @@ int guess(int num);
 class Solution {
 public:
     int guessNumber(int n) {
-        long long lo = 0, hi = n, num, cmp;
+        int lo = 0, hi = n, num, cmp;
         
         do {
-            num = (lo + hi) / 2;
+            num = lo + ((hi - lo) >> 1);
             cmp = guess(num);
             
             if(cmp == -1)
