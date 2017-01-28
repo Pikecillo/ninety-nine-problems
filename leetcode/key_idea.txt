@@ -71,4 +71,6 @@
 344 - Ad-hoc: swap elements
 345 - Ad-hoc: swap elements
 
+374 - Use binary search, avoid overflow.
+
 389 - XOR characters in both strings, the result is the additional character
